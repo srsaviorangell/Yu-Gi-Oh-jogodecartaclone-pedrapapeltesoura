@@ -1,0 +1,1 @@
+# Yu-Gi-Oh-jogodecartaclone-pedrapapeltesoura
