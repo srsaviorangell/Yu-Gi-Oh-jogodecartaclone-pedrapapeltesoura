@@ -1,0 +1,121 @@
+.bg-video{
+    display: flex;
+    z-index: -2;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-video .video{
+    height: 100vh;
+    width: 100vw;
+}
+.bg-video::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg,rgba(0,0,0,.8) 0% , rgba(0,0,0,0.8) 50% , rgb(0, 0, 0) 100% );
+}
+.container{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.container_left{
+    width:35%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.score_box{
+    background-color: #fff;
+    padding: 30px;
+}
+.card_deta{
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+}
+.frame{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#card-name{
+    font-size: 0.8rem;
+}
+#card-type{
+    font-size: 1.2rem;
+}
+
+.menu_avata{
+    background: #9c6e6e;
+    border: 1px solid violet;
+    width: 200px;
+    height: 250px;
+    margin:auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;    
+}
+
+.container_rigth{
+     width: 65vw;
+}
+
+.card-box_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+
+.card-versus{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.1rem;
+    height:300px ;
+    margin-top: 5rem;
+}
+
+.versus-top, .versus-bottom{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.versus-bottom{
+    margin-top: 1rem;
+}
+
+#next-duel{
+    display: none;
+}
+
+.card-box {
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-infilde{
+    height: 11.2rem;
+    width: 8rem;
+    border-radius: 8px;
+}
