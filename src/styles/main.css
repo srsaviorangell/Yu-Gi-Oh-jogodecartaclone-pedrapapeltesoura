@@ -33,6 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    display: flex;
 }
 .score_box{
     background-color: #fff;
@@ -59,16 +60,6 @@
     font-size: 1.2rem;
 }
 
-.menu_avata{
-    background: #9c6e6e;
-    border: 1px solid violet;
-    width: 200px;
-    height: 250px;
-    margin:auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    justify-content: center;    
-}
 
 .container_rigth{
      width: 65vw;
@@ -118,4 +109,12 @@
     height: 11.2rem;
     width: 8rem;
     border-radius: 8px;
+}
+
+.card{
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.2);
 }
